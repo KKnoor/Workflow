@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin:0; background:#f5f7fb; color:#172033; font-family: Arial, "Noto Sans Arabic", sans-serif; }
+button,input,textarea,select { font:inherit; }
+button { cursor:pointer; }
+::selection { background:#bfdbfe; }
